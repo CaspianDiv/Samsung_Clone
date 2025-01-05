@@ -1,0 +1,713 @@
+html{scroll-behavior: smooth;}
+body{background: white;}
+header{overflow: hidden;}
+main{overflow: hidden;}
+#logo-mobile{width: 150%;}
+.position{
+    position: absolute;
+    right: 0;
+    top: -1000px;
+}
+#search-button img{width: 30px;}
+ul li a,menu li a{text-decoration: none;}
+#slider-content h6{font: bold 1.3em "Samsung One",sans-serif;}
+#slider-content h1{font: bold 2em "Samsung Sharp Sans",sans-serif;}
+#slider-content p{font: 400 1em "Samsung One",sans-serif;}
+#slider-content .btn{
+    border-radius: 30px;
+    font: bold 1em "Samsung One",sans-serif;
+}
+#slider-content{
+    left: 0%;
+    top: 10%;
+}
+#carouselExampleSlidesOnly{margin: 10% 0 5% 0;}
+#carouselExampleSlidesOnly img{
+    min-height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    background-position: 50% 50%;
+}
+nav ul,ul.menu menu,#logo{display: none;}
+#latest-offers {text-align: center;}
+#latest-offers hr{width: 100px;}
+#latest-offers h2{font: bold 2em "Samsung Sharp Sans";}
+#latest-offers a{
+    text-decoration: none;
+    color: #fff;
+    font: 600 1.1em "Samsung One",sans-serif;
+}
+.choose-catalog{
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+.card-responsive{border-radius: 30px;}
+.hover-btn{
+    width: 50%;
+    margin: auto;
+    border: none;
+    outline: none;
+    background: #000;
+    color: #ffff;
+    padding: 10px 5px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    visibility: hidden;
+}
+
+#app-exclusive{
+    background: url('../img/app-exlusive_slide.avif')center/cover;
+    min-height: 50vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+#app-exclusive .card{
+    position: absolute;
+    top: 5%;
+    left: 10%;    
+}
+#app-exclusive h5{font: bold .8em "Samsung Sharp Sans",sans-serif;}
+#app-exclusive h3{
+    padding: 10px 0;
+    font: bold 2em "Samsung Sharp Sans",sans-serif ;
+}
+#app-exclusive p{
+    font: 400 1em "Samsung One",sans-serif;
+    padding: 10px 0 0 0;
+}
+#app-exclusive button{
+    border-radius: 30px;
+    width: 40%;
+    text-transform: capitalize;
+    padding: 5px 10px;
+}
+#app-exclusive a{
+    font: bold 1em "Samsung One",sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+#discover h2{
+    font: bold 2em "Samsung Sharp Sans";
+    padding: 30px;
+}
+#discover h4{
+    font: bold 1.5em "Samsung Sharp Sans",sans-serif;
+    padding: 15px 0 0 0;
+}
+#mobile-computing{
+    background: url('../img/SDSAC-8615-S24U-New-Year-Saving-HP-LOB-FullBleed-DT-1440x810.avif')50% 50%/cover;
+    margin: 30px 0 0 0;
+    min-height: 100vh;
+}
+#mobile-computing-content{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    padding: 20px 0 0 0;
+}
+#mobile-computing-content h3{
+    font: bold 2.5em "Samsung Sharp Sans",sans-serif;
+    text-align: center;
+}
+
+.galaxys{
+    font: bold 1.1em "Samsung One",sans-serif;
+    margin: auto;
+}
+#mobile-computing-content h2{
+    padding: 110% 10% 0 0;
+    text-align: center;
+    font: bold 3em "Samsung Sharp Sans",sans-serif;
+}
+#mobile-computing-content p{
+    font: 400 1.1em "Samsung One",sans-serif;
+    text-align: center;
+}
+.txt-phone a{
+    font: bold 1em "Samsung One",sans-serif;
+    color: #fff;
+}
+.txt-phone button{
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin: 0 0 0 10px;
+
+}
+.txt-phone button a{  
+    font: bold 1em "Samsung One",sans-serif;
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.txt-phone{text-align: center;}
+#tv-audio{
+    background: url('../img/W1-2025_LoB1_D_1440x810.avif')center/cover;
+    height: 100vh;
+}
+#tv-audio h3{
+    font: bold 2.5em "Samsung Sharp Sans",sans-serif;
+    text-align: center;
+    padding: 40px 0 0 0;
+} 
+#tv-audio h2{
+    font: bold 3em "Samsung Sharp Sans",sans-serif;
+    text-align: center;
+    padding: 75% 0 0 0;
+}
+#tv-audio p{
+    font: 400 1.2em "Samsung One",sans-serif;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+#tv-audio a{
+    font: bold 1.1em "Samsung One",Arial,sans-serif;
+}
+#tv-audio button{
+    font: 600 1em "Samsung One",sans-serif;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 20px 0 0 0;
+}
+.btn-tv{text-align: center;}
+.btn-tv a{
+    color: #000;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+#home-appliances{
+    background: #F7F7F7 url('../img/Early-BF-DA-LOB-M.avif')center/cover;
+    height: 100vh;
+}
+#home-appliances h3{
+    font: bold 2.5em "Samsung Sharp Sans",sans-serif;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+#home-appliances a{
+    color: #000;
+    font: bold 1em "Samsung One",sans-serif;
+}
+#home-appliances h2{
+    font: bold 2.5em "Samsung Sharp Sans",sans-serif;
+    padding: 70% 0 0 0;
+    color: #000;
+    text-align: center;
+}
+#home-appliances p{
+    text-align: center;
+    font: 400 1.3em "Samsung One",sans-serif;
+    color: #000;
+    padding: 10px 0;
+}
+#home-appliances button{
+    background: #000;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font: bold 1em "Samsung One",sans-serif;
+}
+#home-appliances .home a{
+    color: #fff;
+    text-decoration: none;
+
+}
+#only-samsung{
+    background: url('../img/HP-RTB-01-VIP-Mo.avif')center/cover;
+    height: 40vh;
+    margin: 10% 5px 0 5px;
+}
+.samsung-only-2 {text-align: center;}
+.samsung-only h3{
+    font: bold 2.5em "Samsung Sharp Sans",sans-serif;
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+.samsung-only-2 h2{
+    font: bold 2em "Samsung Sharp Sans",sans-serif;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+.samsung-only-2 p{
+    text-align: center;
+    font: 400 1.3em "Samsung One",sans-serif;
+    color: #000;
+    padding: 10px 0;
+}
+.samsung-only-2 a{
+    color: #000;
+    font: bold 1.3em "Samsung One",sans-serif;
+}
+#cards-samsung{display: none;}
+#sustainability{
+    background: url('../img/EarthDay_CRN_MB_720X1280_2.avif')center/cover;
+    min-height: 100vh;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+#explore-more {padding: 50px;}
+#sustainability h3{
+    font: bold 2.5em "Samsung Sharp Sans",sans-serif;
+    color: #000;
+    padding: 30px 0 0 0; 
+}
+
+#sustainability a{
+    color: #000;
+    font: bold 1em "Samsung One",sans-serif;
+}
+#sustainability h2{
+    padding: 100% 0 0 0;
+    font: bold 2.5em "Samsung Sharp Sans",sans-serif;
+    color: #000;
+}
+#sustainability p{
+    font: 500 1em "Samsung One",sans-serif;
+    color: #000;
+}
+#sustainability button{
+    padding: 15px 40px;
+    background: #000;
+    color: #fff;
+    font: bold 1em "Samsung One",sans-serif;
+    border-radius: 30px;
+}
+#sustainability button a{
+    color: #fff;
+    text-decoration: none;
+}
+#shop-smart h2{
+    font: bold 2em "Samsung Sharp Sans",sans-serif;
+    color: #000;
+}
+#shop-smart p{
+    font: 500 1em "Samsung One",sans-serif;
+    color: #000;
+}
+#shop-smart h5{
+    padding: 20px 0;
+    font: bold 1.2em "Samsung Sharp Sans",sans-serif;
+}
+#shop-smart a{
+    color: #000;
+    font: bold 1em "Samsung One",sans-serif;
+}
+#explore-more h2{
+    font: bold 2em "Samsung Sharp Sans",sans-serif;
+    text-align: center;
+}
+#explore-more h3{
+    font: bold 1.5em "Samsung Sharp Sans",sans-serif;
+}
+#explore-more a{
+    font: bold 1em "Samsung One",sans-serif;
+    color: #000;
+}
+#explore-more p{
+    font: 500 "Samsung One",sans-serif;
+    text-align: center;
+}
+#explore-more .container{
+    flex-direction: column;
+}
+#explore-more img{
+    width: 100%;
+}
+#keyword h2{
+    font: bold 2em "Samsung Sharp Sans",sans-serif;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+.keyword-textbox{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.keyword-textbox input{
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #f1f1f1;
+}
+.keyword-textbox img{
+    width: 40px;
+    padding: 16px 5px;
+    position: absolute;
+    right: 470px;
+}
+#keyword .search-result a{
+    border: 1px solid #dddd;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+}
+#accordion-menu h6{
+    font: bold 1em "Samsung Sharp Sans",Arial,sans-serif;
+}
+#accordion-menu p,a{font: 400 1em "Samsung One",sans-serif;}
+#footer-table h5{
+    font: bold 1.2em "Samsung One",sans-serif;
+    padding: 20px;
+    color: #000;
+}
+#footer-table p{padding: 5px 20px;}
+#footer-table p a{
+    font: 1em "Samsung One",sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+#footer-table .container-fluid{
+    flex-direction: column;
+    gap: 20px;
+}
+footer .container div{padding: 10px 0 0 0;}
+#footer-content a{
+    text-decoration: none;
+    padding: 10px 0;
+    color: #000;
+    font: .7em "Samsung One",sans-serif;
+}
+#footer-content .stay{
+    padding: 0 5% 0 15px ;
+}
+#footer-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#footer-content i{
+    font-size: 1.5em;
+}
+#up-page{
+    right: 0;
+    bottom: 5%;
+    z-index: 1;
+    position: fixed;
+}
+#up-page img{
+    width: 100%;
+    height: 80px;
+    background: #0000008e;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+#explore-interactive{
+    background: url('../img/06-SmartThingsBanner-FT03-Mo\ \(1\).avif')center/cover;
+    min-height: 100vh;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+#explore-interactive h2{
+    padding: 20px 0 0 0;
+    font: bold 2em "Samsung Sharp Sans",sans-serif;
+    color: #000;
+}
+#explore-interactive p{
+    font: 1.3em "Samsung One",sans-serif;
+    color: #000;
+}
+#explore-interactive button{
+    border: none;
+    outline: none;
+    background: #000;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+#explore-interactive button a{
+    font: bold 1.2em "Samsung One",sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+@media only screen and (min-width: 768px){
+    #icons{
+        padding: 0 20px;
+    }
+    #logo img{width: 50%;}
+    nav #logo{width: 15%;}
+    nav ul,ul.menu menu,#logo{
+        display: inherit;
+    }
+    nav{
+        height: 120px;
+        display: flex;
+    }
+    menu{
+        display: flex;
+
+    }
+    menu >li:hover{
+        background: #000;
+        border-radius: 30px;
+    }
+    menu li:hover ul{
+        visibility: visible;
+        opacity: 1;
+        right: 250px;
+    }
+    menu li:hover a{color: #fff;}
+    menu li a{
+        padding: 0 10px;
+        font: bold 1em "Samsung One",sans-serif;
+        text-transform: capitalize;
+        color: #000;
+    }
+    menu li a img{padding: 0 10px 10px 10px;}
+    ul.menu{
+        display: flex;
+        align-items: center;
+    }
+
+    ul.menu li{
+        position: relative;
+        z-index: 1;
+        border-radius: 20px;
+        transition: 250ms all;
+    }
+    ul.menu >li >a{
+        padding: 0 10px;
+        display: block;
+        font: bold 1em "Samsung One",sans-serif;
+        text-transform: capitalize;
+        color: #000;
+    }
+
+    ul.menu ul li a {
+        font: 400 1em "Samsung One",sans-serif;
+        text-transform: capitalize;
+        display: block;
+        color: #000;
+        padding: 10px 20px;
+    }
+    
+    ul.menu >li ul ul{
+        position: absolute;
+        left: 40%;
+        top: 0;
+    }
+    ul.menu ul{
+        background: #fff;
+        position: absolute;
+        top: 55px;
+        width: 500px;
+        border-radius: 20px;
+        opacity: 0;
+        transition: 250ms all;
+        visibility: hidden;
+    }   
+    ul.menu >li:hover ul{
+        visibility: visible;
+        opacity: 1;
+    }
+    ul.menu >li:hover{background: #000;}
+    ul.menu >li:hover >a{color: #fff;}
+    ul.menu >li:hover ul ul ul{
+        top: 10px;
+        visibility: visible;
+        opacity: 1;
+        left: 0;
+    }
+    ul.menu >li:hover ul ul ul{
+        visibility: visible;
+        opacity: 1;
+        top: 0;
+        left: 50%;
+    }
+   #ai-drop{width: 200px;}
+    ul menu li a img{
+    padding: 20px;
+    display: inline-block;
+    width: 100px;
+    background: #f1f1f1;
+    border-radius: 15px;
+    }
+    span{
+        background: red;
+        color: #fff;
+        padding: 10px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    #tv-menu{
+        position: absolute;
+        right: 200px;
+    }
+    #tv{
+        position: absolute;
+        right: 50px;
+    }
+    #tv-menu2{
+        position: absolute;
+        right: 185px;
+    }
+    #acc-menu{right: 300%;}
+    .tv1{margin: 0 0 0 70px;}
+    .tv2{margin: 0 0 0 90px;}
+    .explore{
+        position: absolute;
+        left: -1000px;
+    }
+    #support{
+        position: absolute;
+        left: -1050px;
+    }
+    #business{
+        position: absolute;
+        left: -1150px;
+    }
+    #slider-content{
+        left: 5%;
+        top: 25%;
+    }
+    #slider-content h1{font: bold 3em "Samsung Sharp Sans",sans-serif;}  
+    #carouselExampleSlidesOnly{margin: 0;}
+    #latest-offers h2{
+        padding: 50px 0 10px 0;
+        font: bold 2.5em "Samsung Sharp Sans";
+    }
+    .choose-catalog {
+        padding: 30px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .parent{overflow: hidden;}
+    .parent img{transition: 250ms all;}
+    .parent:hover img{scale: 1.1;}
+
+    .card-responsive:hover .hover-btn{
+        visibility: visible;
+    }
+    #app-exclusive h3{font-size: 2.5em;}
+    #app-exclusive .card{
+        position: absolute;
+        top: 20%;
+        left: 5%;    
+    }
+    #app-exclusive{
+        max-height: 40vh;
+        text-align: inherit;
+    }
+    
+    #app-exclusive .btn{text-align: left;}
+    #discover img{
+        height: 200px;
+    }
+    #mobile-computing-content{
+        left: 35%;
+        top: 3%;
+    }
+    #mobile-computing-content h2{padding: 110% 0 0 0;}
+    #tv-audio h3{font-size: 2.5em;} 
+    #tv-audio h2{
+        font: bold 3em "Samsung Sharp Sans",sans-serif;
+        padding: 35% 0 0 0;
+    }
+    #tv-audio button{
+        font: 600 1em "Samsung One",sans-serif;
+        padding: 10px 20px;
+    }
+    .btn-tv{text-align: center;}
+    #home-appliances{
+        height: 1700px;
+    }
+    #home-appliances h2{
+        padding: 60% 0 0 0;
+    }
+    .samsung-only{display: none;}
+    #only-samsung{display: none;}
+    .samsung-only-2{display: none;}
+    #cards-samsung h2{ font: bold 2em "Samsung Sharp Sans",sans-serif;} 
+    #cards-samsung h3{ 
+        font: 700 2em "Samsung Sharp Sans",sans-serif;
+        color: #000;
+    }
+    #cards-samsung p{
+        font: 400 1em "Samsung One",sans-serif;
+        color: #000;
+    }
+    #cards-samsung a{
+        font: bold 1em "Samsung One",sans-serif;
+        color: #000;
+        padding: 0 10% 0 0;
+    }
+    #sustainability{
+        height: 150vh;
+        object-fit: cover;
+        background-position: 50% 40%;
+    }
+    #sustainability h3{font-size: 3em;}
+    #sustainability a{font-size: 1.3em;}
+    #sustainability h2{
+        padding: 60% 0 0 0;
+    }
+    #shop-smart{display: none;}
+    #explore-more h2{
+        font: bold 2em "Samsung Sharp Sans",sans-serif;
+        text-align: center;
+        padding: 5% 0 0 0;
+    }
+    #explore-more h3{
+        font: bold 1.5em "Samsung Sharp Sans",sans-serif;
+    }
+    #explore-more p{
+        font: 500 1em "Samsung One",sans-serif;
+    }
+    #explore-more a{
+        font: bold 1em "Samsung One",sans-serif;
+        color: #000;
+        padding: 10px 0 10px 0;
+    }
+    #explore-more .container{flex-direction: row;}
+    .col-lg-6{padding: 5% 0 0 0;}
+    .keyword-textbox input{
+        width: 30%;
+    }
+    .keyword-textbox img{right: 360px;}
+    #keyword .search-result a{
+        padding: 5px 30px;
+        transition: 250ms all;
+    }
+    #keyword .search-result a:hover{
+        cursor: pointer;
+        background: #f1f1f1;
+    }
+    #footer-table p a:hover{
+        color: #800080;
+        text-decoration: underline;
+    }
+    #footer-table .card{
+        height: 100%;
+    }
+    #footer-table .container-fluid{
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+    }
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #footer-content{
+        flex-direction: row;
+        align-items: center;
+    }
+    #footer-content a i{
+        padding: 5px;
+    }
+    #footer-content a{padding: 0 10px;}
+    #footer-content .stay{padding: 0 15% 0 2%;}
+    #explore-interactive{
+        text-align: inherit;
+        min-height: 300px;
+        padding: 0 30px;
+    }
+}
