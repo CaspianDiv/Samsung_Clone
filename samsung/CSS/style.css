@@ -429,6 +429,7 @@ footer .container div{padding: 10px 0 0 0;}
     color: #fff;
     text-decoration: none;
 }
+#keyword .search-result a{padding: 5px 5px;}
 @media only screen and (min-width: 768px){
     #icons{
         padding: 0 20px;
