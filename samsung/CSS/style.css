@@ -31,6 +31,7 @@ ul li a,menu li a{text-decoration: none;}
 }
 nav ul,ul.menu menu,#logo{display: none;}
 #latest-offers {text-align: center;}
+
 #latest-offers hr{width: 100px;}
 #latest-offers h2{font: bold 2em "Samsung Sharp Sans";}
 #latest-offers a{
@@ -38,6 +39,7 @@ nav ul,ul.menu menu,#logo{display: none;}
     color: #000;
     font: 600 1.1em "Samsung One",sans-serif;
 }
+#latest-offers .hover-btn a{color: #fff;}
 .choose-catalog{
     flex-direction: column;
     display: flex;
@@ -56,6 +58,7 @@ nav ul,ul.menu menu,#logo{display: none;}
     text-transform: capitalize;
     visibility: hidden;
 }
+
 
 #app-exclusive{
     background: url('../img/app-exlusive_slide.avif')center/cover;
