@@ -9,7 +9,7 @@ main{overflow: hidden;}
     top: -1000px;
 }
 @supports (-webkit-touch-callout: none) {
-    svg {
+     #up-page img svg {
       /* Safari-specific styles */
       width: 24px;
       height: 24px;
