@@ -2,13 +2,18 @@ html{scroll-behavior: smooth;}
 body{background: white;}
 header{overflow: hidden;}
 main{overflow: hidden;}
-
 #logo-mobile{width: 150%;}
 .position{
     position: absolute;
     right: 0;
     top: -1000px;
 }
+svg {
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+  
 #search-button img{width: 30px;}
 ul li a,menu li a{text-decoration: none;}
 #slider-content h6{font: bold 1.3em "Samsung One",sans-serif;}
@@ -108,8 +113,8 @@ nav ul,ul.menu menu,#logo{display: none;}
 }
 #mobile-computing-content{
     position: absolute;
-    top: 0;
-    left: 15%;
+    top: 5%;
+    left: 10%;
     padding: 20px 0 0 0;
 }
 #mobile-computing-content h3{
@@ -160,7 +165,7 @@ nav ul,ul.menu menu,#logo{display: none;}
 #tv-audio h2{
     font: bold 2em "Samsung Sharp Sans",sans-serif;
     text-align: center;
-    padding: 75% 0 0 0;
+    padding: 400px 0 0 0;
 }
 #tv-audio p{
     font: 400 1.2em "Samsung One",sans-serif;
@@ -186,6 +191,8 @@ nav ul,ul.menu menu,#logo{display: none;}
 #home-appliances{
     background: #F7F7F7 url('../img/Early-BF-DA-LOB-M.avif')center/cover;
     height: 100vh;
+    width: 100%;
+    margin: auto;
 }
 #home-appliances h3{
     font: bold 2em "Samsung Sharp Sans",sans-serif;
@@ -198,9 +205,9 @@ nav ul,ul.menu menu,#logo{display: none;}
 }
 #home-appliances h2{
     font: bold 2.5em "Samsung Sharp Sans",sans-serif;
-    padding: 70% 0 0 0;
     color: #000;
     text-align: center;
+    padding: 350px 0 0 0;
 }
 #home-appliances p{
     text-align: center;
@@ -259,7 +266,7 @@ nav ul,ul.menu menu,#logo{display: none;}
     color: #000;
     padding: 30px 0 0 0; 
 }
-
+#sustainability h2{padding: 0;}
 #sustainability a{
     color: #000;
     font: bold 1em "Samsung One",sans-serif;
@@ -394,6 +401,7 @@ footer .container div{padding: 10px 0 0 0;}
     bottom: 5%;
     z-index: 1;
     position: fixed;
+    margin: 10px;
 }
 #up-page img{
     width: 100%;
@@ -434,8 +442,12 @@ footer .container div{padding: 10px 0 0 0;}
     #icons{
         padding: 0 20px;
     }
-    #logo img{width: 50%;}
-    nav #logo{width: 15%;}
+    
+    nav #logo{
+        display: flex;
+        align-items: center;
+    }
+    nav #logo img{width: 100%;}
     nav ul,ul.menu menu,#logo{
         display: inherit;
     }
@@ -445,7 +457,7 @@ footer .container div{padding: 10px 0 0 0;}
     }
     menu{
         display: flex;
-
+        align-items: center;
     }
     menu >li:hover{
         background: #000;
@@ -625,8 +637,9 @@ footer .container div{padding: 10px 0 0 0;}
         height: 1700px;
     }
     #home-appliances h2{
-        padding: 60% 0 0 0;
+        margin: 50% 0 0 0;
     }
+    #home-appliances h3{padding: 40px 0 0 0;}
     .samsung-only{display: none;}
     #only-samsung{display: none;}
     .samsung-only-2{display: none;}
