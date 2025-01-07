@@ -439,9 +439,15 @@ footer .container div{padding: 10px 0 0 0;}
     text-decoration: none;
 }
 #keyword .search-result a{padding: 5px 5px;}
-_::-webkit-full-page-media, _:future, :root .page-up-icon {
-    display: none;
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media {
+        #up-page  {
+            display: none;
+        }
+    }
 }
+
+
 @media only screen and (min-width: 768px){
     #icons{
         padding: 0 20px;
