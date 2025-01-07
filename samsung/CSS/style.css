@@ -8,10 +8,13 @@ main{overflow: hidden;}
     right: 0;
     top: -1000px;
 }
-svg {
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    transform: translateZ(0);
+@supports (-webkit-touch-callout: none) {
+    svg {
+      /* Safari-specific styles */
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+    }
   }
   
 #search-button img{width: 30px;}
