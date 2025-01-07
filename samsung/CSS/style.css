@@ -8,17 +8,12 @@ main{overflow: hidden;}
     right: 0;
     top: -1000px;
 }
-@supports (-webkit-touch-callout: none) {
-     #up-page img {
-      /* Safari-specific styles */
-      width: 24px;
-      height: 24px;
-      fill: currentColor;
-    }
-       #up-page{
-        width: 50%;
-    }
+svg {
+    width: 24px; /* və ya istədiyiniz ölçü */
+    height: 24px;
+    display: block; /* və ya inline-block */
   }
+  
   
 #search-button img{width: 30px;}
 ul li a,menu li a{text-decoration: none;}
@@ -356,7 +351,7 @@ nav ul,ul.menu menu,#logo{display: none;}
     width: 40px;
     padding: 16px 5px;
     position: absolute;
-    right: 470px;
+    right: 350px;
 }
 #keyword .search-result a{
     border: 1px solid #dddd;
